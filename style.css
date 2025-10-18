@@ -145,3 +145,72 @@ p {
     /* Darker shade on hover for interactivity */
     background-color: #e6b800;
 }
+#for tablets and screens
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cta {
+        padding: 40px 10px;
+    }
+
+    .cta h2 {
+        font-size: 28px;
+    }
+
+    .cta p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+#for phones
+@media (max-width: 7480px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .card {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .cta {
+        padding: 30px 10px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
+    
