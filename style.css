@@ -13,10 +13,6 @@ header {
     border-bottom: 3px solid #ffc907;
 }
 
-.logo {
-    /* Styles for the logo container */
-}
-
 .logo img {
     height: 40px; /* Adjust height as needed */
     vertical-align: middle; /* Aligns image nicely if there's extra space */
