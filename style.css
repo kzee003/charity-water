@@ -129,17 +129,18 @@ p {
 }
 
 .cta-button {
-    /* Eye-catching button with golden yellow background */
-    background-color: #ffc907; /* Golden Yellow */
-    color: #003366; /* Dark Blue */
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
+    display: inline-block;      /* ensures padding and background apply */
+    background-color: #ffc907;  /* golden yellow background */
+    color: #003366;             /* text color */
+    padding: 15px 30px;         /* spacing around text */
+    border-radius: 5px;         /* rounded corners */
+    text-decoration: none;      /* remove underline */
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
-    display: inline-block;
     transition: background-color 0.3s ease;
+    text-align: center;         /* center text */
 }
+
 
 .cta-button:hover {
     /* Darker shade on hover for interactivity */
