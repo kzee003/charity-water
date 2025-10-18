@@ -208,9 +208,10 @@ p {
 
     .cta {
         padding: 30px 10px;
+        margin-top: 50px;
     }
 
     .cta-button {
-        width: 85%;
+        box-sizing: border-box;
     }
 }
